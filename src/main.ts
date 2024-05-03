@@ -41,7 +41,7 @@ if (typeof window.initializeFeedback !== "function") {
       };
       try {
         logFormEvent(formProps);
-        showConfirmation(dialogId, true);
+        showConfirmation(dialogId, false);
       } catch (err) {
         showError(dialogId);
       }
